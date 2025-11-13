@@ -1,0 +1,43 @@
+@import url("reset.css");
+@import url("font.css");
+#wrap {
+  max-width: 1920px;
+  /* width: calc(100% - 140px); */
+  margin: 0 auto;
+  background-color: black;
+  font-family: "pretendard";
+}
+#wrap .header {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000000;
+  position: relative;
+  /* //.inner  */
+}
+#wrap .header .inner {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#wrap .header .inner .logo {
+  width: 78px;
+}
+#wrap .header .inner .logo a {
+  display: block;
+}
+#wrap .header .inner .logo a img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=main.css.map */
