@@ -720,7 +720,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-top: 30px;
+    
 
 }
 
@@ -739,6 +739,7 @@ body {
     font-weight: 600;
     background-color: #000;
     cursor: pointer;
+    transition: 0.5s ease ;
 }
 
 #portfolio .inner .slider .track .project-card .project-card_contents .text_wrap {
@@ -1218,6 +1219,7 @@ body {
 
 .graphic .images .image_wrap:nth-child(8) {
     grid-area: 26/5/30/15;
+    object-fit: cover;
 }
 
 
